@@ -12,7 +12,7 @@ namespace ProjectPresentasi.API.Profiles
             CreateMap<SwordCreateDto, Sword>();
 
             CreateMap<Sword, SwordWithElementReadDto>();
-            CreateMap<SwordWithElementReadDto, Sword>();
+            CreateMap<SwordWithElementCreateDto, Sword>();
 
         }
     }

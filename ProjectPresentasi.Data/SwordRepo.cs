@@ -72,7 +72,7 @@ namespace ProjectPresentasi.Data
         //    {
         //        var newSword = new Sword
         //        {
-        //           // Id = sword.Id,
+        //            // Id = sword.Id,
         //            Name = sword.Name,
         //            Elements = new List<Element>
         //            {
@@ -80,7 +80,7 @@ namespace ProjectPresentasi.Data
         //            }
         //        };
 
-        //       _context.Swords.Add(newSword);
+        //        _context.Swords.Add(newSword);
         //        await _context.SaveChangesAsync();
         //        return newSword;
         //    }

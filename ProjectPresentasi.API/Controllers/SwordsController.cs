@@ -64,7 +64,7 @@ namespace ProjectPresentasi.API.Controllers
                 var newSword = _mapper.Map<Sword>(swordWithElemenCreateDto);
                 var result = await _swords.Insert(newSword);
                 var swordDto = _mapper.Map<SwordReadDto>(result);
-                return CreatedAtAction("GetById", new { id = result.Id }, swordDto);
+                return CreatedAtAction("GetSword", new { result.Id }, swordDto);
             }
 
             catch (Exception ex)
